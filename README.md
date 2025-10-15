@@ -1,8 +1,12 @@
-# 💙 ONG Esperança Viva — Plataforma Web
+# 💙 ONG Esperança Viva
 
-Bem-vindo à plataforma digital da **ONG Esperança Viva**, uma iniciativa que une tecnologia e solidariedade para transformar vidas. Este projeto foi desenvolvido com foco em acessibilidade, engajamento e impacto social, oferecendo às ONGs uma presença online moderna e funcional.
+Bem-vindo à **ONG Esperança Viva**, uma iniciativa que une tecnologia e solidariedade para transformar vidas. Este projeto foi desenvolvido com foco em acessibilidade, engajamento e impacto social, oferecendo às ONGs uma presença online moderna e funcional.
 
 ![Logo da ONG Esperança Viva](img/logo_ong.png)
+
+| 🏠 Início | 📝 Cadastro | 📁 Projetos |
+|----------|-------------|-------------|
+| [🔗 Acessar index.html](./index.html) | [🔗 Acessar cadastro.html](./cadastro.html) | [🔗 Acessar projetos.html](./projetos.html) |
 
 ---
 
@@ -41,3 +45,4 @@ Relatórios públicos, endereço, e-mail e telefone da organização.
 | Voluntário    | Cadastrar-se, acompanhar histórico e receber certificados |
 | Doador        | Conhecer projetos, doar online e acompanhar resultados  |
 | Visitante     | Navegar, conhecer e compartilhar conteúdo               |
+****
