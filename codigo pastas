@@ -1,0 +1,15 @@
+plataforma-ong/
+├── index.html
+├── projetos.html
+├── cadastro.html
+├── css/
+│   └── style.css
+├── js/
+│   └── scripts.js
+├── img/
+│   └── logo.png
+│   └── equipe.jpg
+│   └── projeto1.jpg
+│   └── voluntariado.jpg
+├── docs/
+│   └── relatorio-transparencia.pdf
