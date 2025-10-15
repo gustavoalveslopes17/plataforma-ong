@@ -1,0 +1,54 @@
+.hero {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #e0f7fa;
+}
+
+.botao-destaque {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #006699;
+  color: #fff;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.botao-destaque:hover {
+  background-color: #004d66;
+}
+
+.cards {
+  padding: 2rem 1rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 280px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.botao-secundario {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #ccc;
+  color: #333;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.botao-secundario:hover {
+  background-color: #bbb;
+}
