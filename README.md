@@ -4,9 +4,9 @@ Bem-vindo à **ONG Esperança Viva**, uma iniciativa que une tecnologia e solida
 
 ![Logo da ONG Esperança Viva](img/logo_ong.png)
 
-| 🏠 Início | 📝 Cadastro | 📁 Projetos |
-|----------|-------------|-------------|
-| [🔗 Acessar index.html](./index.html) | [🔗 Acessar cadastro.html](./cadastro.html) | [🔗 Acessar projetos.html](./projetos.html) |
+| 🏠 Início | 📝 Cadastro | 📁 Projetos | 💰 Seja um Doador | 📰 Mídia |
+|----------|-------------|-------------|-------------------|----------|
+| [🔗 Acessar index.html](./index.html) | [🔗 Acessar cadastro.html](./cadastro.html) | [🔗 Acessar projetos.html](./projetos.html) | [🔗 Acessar doador.html](./doador.html) | [🔗 Acessar midia.html](./midia.html) |
 
 ---
 
@@ -35,6 +35,12 @@ Formulário interativo com validação e máscaras de input.
 🔹 **Transparência e Contato**  
 Relatórios públicos, endereço, e-mail e telefone da organização.
 
+🔹 **Seja um Doador**  
+Sistema de doações online, metas em tempo real e prestação de contas.
+
+🔹 **Mídia**  
+Blog de notícias, newsletter, área de imprensa e documentos públicos.
+
 ---
 
 ## 👥 Personas Atendidas
@@ -45,4 +51,4 @@ Relatórios públicos, endereço, e-mail e telefone da organização.
 | Voluntário    | Cadastrar-se, acompanhar histórico e receber certificados |
 | Doador        | Conhecer projetos, doar online e acompanhar resultados  |
 | Visitante     | Navegar, conhecer e compartilhar conteúdo               |
-****
+
