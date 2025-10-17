@@ -1,8 +1,7 @@
-/* ============================= */
-/* 🌐 Design System e Fontes     */
-/* ============================= */
+/* Importa fonte moderna do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
+/* Variáveis para design system */
 :root {
   --primary-color: #0077b6;
   --secondary-color: #023e8a;
@@ -13,9 +12,7 @@
   --text-dark: #222;
 }
 
-/* ============================= */
-/* 🔄 Reset e Base               */
-/* ============================= */
+/* Reset básico */
 * {
   margin: 0;
   padding: 0;
@@ -31,12 +28,10 @@ body {
   line-height: 1.6;
   background-color: var(--bg-light);
   color: var(--text-dark);
-  padding-bottom: 80px;
+  padding-bottom: 80px; /* Espaço extra para rodapé fixo */
 }
 
-/* ============================= */
-/* 🧭 Cabeçalho e Navegação      */
-/* ============================= */
+/* Cabeçalho */
 header {
   background-color: var(--primary-color);
   color: white;
@@ -55,10 +50,10 @@ header {
 nav ul {
   list-style: none;
   display: flex;
+  gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 20px;
 }
 
 nav a {
@@ -72,9 +67,7 @@ nav a:hover {
   color: var(--accent-color);
 }
 
-/* ============================= */
-/* 📄 Conteúdo Principal         */
-/* ============================= */
+/* Conteúdo principal */
 main {
   max-width: 1000px;
   margin: 40px auto;
@@ -105,9 +98,7 @@ img {
   border-radius: 8px;
 }
 
-/* ============================= */
-/* 📝 Formulário                 */
-/* ============================= */
+/* Formulário */
 form {
   background-color: #ffffff;
   padding: 20px;
@@ -154,9 +145,7 @@ button:hover {
   background-color: var(--secondary-color);
 }
 
-/* ============================= */
-/* 📎 Rodapé                     */
-/* ============================= */
+/* Rodapé */
 footer {
   position: fixed;
   bottom: 0;
@@ -168,9 +157,7 @@ footer {
   font-size: 0.9rem;
 }
 
-/* ============================= */
-/* 📱 Responsividade             */
-/* ============================= */
+/* Responsividade */
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
@@ -200,9 +187,7 @@ footer {
   }
 }
 
-/* ============================= */
-/* 🧩 Layout aprimorado          */
-/* ============================= */
+/* Layout aprimorado para formulários em telas maiores */
 @media (min-width: 768px) {
   fieldset {
     display: grid;
@@ -219,9 +204,7 @@ footer {
   }
 }
 
-/* ============================= */
-/* ⚙️ Interatividade futura      */
-/* ============================= */
+/* Interatividade futura */
 .menu-toggle {
   display: none;
   background-color: var(--primary-color);
@@ -235,10 +218,70 @@ footer {
   display: block;
 }
 
-/* ============================= */
-/* ♿ Acessibilidade              */
-/* ============================= */
+/* Acessibilidade */
 a:focus, button:focus, input:focus, select:focus {
   outline: 2px dashed var(--accent-color);
   outline-offset: 4px;
+}
+
+/* Página: Seja um Doador */
+.doador-campanhas,
+.doador-sistema,
+.doador-metas,
+.doador-relatorios {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+}
+
+progress {
+  width: 100%;
+  height: 20px;
+  appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+
+progress::-moz-progress-bar {
+  background-color: var(--primary-color);
+}
+
+/* Página: Mídia */
+.midia-blog,
+.midia-newsletter,
+.midia-imprensa,
+.midia-documentos {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+}
+
+.midia-blog article,
+.midia-imprensa ul,
+.midia-documentos ul {
+  margin-top: 10px;
+}
+
+.midia-blog h2,
+.midia-newsletter h2,
+.midia-imprensa h2,
+.midia-documentos h2 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.midia-newsletter form {
+  margin-top: 10px;
 }
