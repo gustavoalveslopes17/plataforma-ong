@@ -1,44 +1,76 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Seja um Doador - ONG Esperança Viva</title>
-  <link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seja um Doador</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
+    <div class="logo"><img src="logo.png" alt="Logo da ONG" /></div>
     <nav>
       <ul>
-        <li><a href="index.html">Início</a></li>
+       <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
         <li><a href="doador.html">Doador</a></li>
-        <li><a href="midia.html">Mídia</a></li>
-        <li><a href="contato.html">Contato</a></li>
+        <li><a href="midia.html">Midia</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <h1>Seja um Doador</h1>
-    <p>Contribua com a ONG Esperança Viva e ajude a transformar vidas. Sua doação faz a diferença!</p>
-
     <section>
-      <h2>Formas de Doar</h2>
-      <ul>
-        <li>💳 Cartão de crédito ou débito</li>
-        <li>📱 Pix: doacoes@esperancaviva.org</li>
-        <li>🏦 Depósito bancário: Banco do Brasil - Agência 1234 - Conta 56789-0</li>
-      </ul>
+      <h1>Campanhas de Arrecadação</h1>
+      <article>
+        <p>Participe das nossas campanhas para ajudar quem mais precisa. Cada contribuição faz a diferença.</p>
+      </article>
     </section>
 
     <section>
-      <h2>Transparência</h2>
-      <p>Todos os recursos são aplicados em nossos projetos sociais. Prestamos contas regularmente em nossos canais.</p>
+      <h2>Sistema de Doações Online</h2>
+      <form id="form-doacao">
+        <fieldset>
+          <legend>Faça sua doação</legend>
+          <label for="valor">Valor (R$):</label>
+          <input type="number" id="valor" name="valor" required />
+          <label for="metodo">Método de pagamento:</label>
+          <select id="metodo" name="metodo">
+            <option>Pix</option>
+            <option>Cartão de Crédito</option>
+            <option>Boleto</option>
+          </select>
+          <button type="submit">Doar</button>
+        </fieldset>
+      </form>
+    </section>
+
+    <section>
+      <h2>Metas e Progresso</h2>
+      <progress value="65" max="100"></progress>
+      <p>Meta atual: R$ 10.000 — Arrecadado: R$ 6.500</p>
+    </section>
+
+    <section>
+      <h2>Prestação de Contas</h2>
+      <article>
+        <p>Veja os relatórios mensais de como sua doação está sendo utilizada.</p>
+        <a href="relatorios.html">Acessar relatórios</a>
+      </article>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 ONG Esperança Viva. Todos os direitos reservados.</p>
+    <p>&copy; 2025 ONG Solidária. Todos os direitos reservados.</p>
   </footer>
+
+  <script>
+    document.getElementById('form-doacao').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Obrigado pela sua doação!');
+    });
+  </script>
 </body>
 </html>
 
